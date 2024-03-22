@@ -1,11 +1,23 @@
-*{
-    text-align: center;
+
+/*
+Palette
+
+#EFFFFD
+#B8FFF9
+#85F4FF
+#42C2FF
+
+*/
+
+.img1{
+    width: 130px;
+    border-radius: 50%;
+    float: right;
+
 }
 
-.imageRound{
-
-    border-radius: 50%;
-
+li {
+  list-style:none;
 }
 
 @keyframes gradient-animation {
@@ -24,4 +36,10 @@
     background: linear-gradient(300deg, #00bfff, #4c58ff, #1bb93d);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
+}
+
+.contHero{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
 }
