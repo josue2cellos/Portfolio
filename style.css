@@ -1,6 +1,12 @@
 
 
-Palette
+/*Palette*/
+
+*{
+  margin:0;
+  padding:0;
+  /*box-sizing: border-box;*/
+}
 
 test{
 background-color:#EFFFFD;
@@ -33,6 +39,10 @@ background-color:#22a2dd;
   color:#EFFFFD;
 }
 
+.fontSize{
+  font-size: 1.3em;
+}
+
 
 li {
   list-style:none;
@@ -61,6 +71,25 @@ li {
       flex-direction: column;
       align-items: center;
       background-image: linear-gradient(to bottom right,#00bfff,#45f3e4);
-      padding-bottom: 30px;
+      padding: 150px;
       gap:30px;
+}
+
+.colFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.padBot{
+  padding-bottom: 40px;
+}
+
+.edEx{
+    display:grid;
+    grid-template: 1fr / 1fr 1fr;
+    margin-top: 20px;
+    padding: 90px;
+    background-image: linear-gradient(to bottom right,#22a2dd,#0a8d82);
 }
