@@ -1,20 +1,38 @@
 
-/*
+
 Palette
 
-#EFFFFD
-#B8FFF9
-#85F4FF
-#42C2FF
+test{
+background-color:#EFFFFD;
+background-color:#45f3e4;
+background-color:#4ce4f1 ;
+background-color:#22a2dd;
+}
 
-*/
+.lobster{
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .img1{
     width: 130px;
     border-radius: 50%;
-    float: right;
-
 }
+
+#tt{
+  font-size: 5em;
+}
+
+#tt2{
+  font-size: 2em;
+}
+
+.fontColor{
+  color:#EFFFFD;
+}
+
 
 li {
   list-style:none;
@@ -40,6 +58,9 @@ li {
 
 .contHero{
       display: flex;
-      flex-direction: row;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      background-image: linear-gradient(to bottom right,#00bfff,#45f3e4);
+      padding-bottom: 30px;
+      gap:30px;
 }
