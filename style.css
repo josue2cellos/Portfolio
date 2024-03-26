@@ -93,6 +93,38 @@ li {
     background-image: linear-gradient(to bottom right,#45f3e4,#00bfff);
 }
 
+.projects{
+  display: grid;
+  grid-template: 1fr / 1fr 1fr 1fr;
+  background-image:linear-gradient(to bottom right,#00bfff,#45f3e4);
+  margin: 20px;
+  padding-bottom: 50px;
+  padding-left: 70px;
+}
+
+.proImg{
+  width: 500px;
+  border-radius: 20px;
+}
+
+#projectsTitle{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  padding-top: 20px;
+  padding-left: 40%;
+  margin-bottom: 30px;
+}
+
+.projectsTitles{
+  margin-bottom: 10px;
+  padding-left: 20%;
+}
+
+#mondrianImg{
+  width: 250px;
+  padding-left: 16%;
+}
+
 @media screen and (max-width: 768px) and (max-width: 576px) {
   .edEx{
     display:grid;
