@@ -21,7 +21,6 @@ background-color:#22a2dd;
   font-style: normal;
 }
 
-
 .img1{
     width: 130px;
     border-radius: 50%;
@@ -89,7 +88,17 @@ li {
 .edEx{
     display:grid;
     grid-template: 1fr / 1fr 1fr;
-    margin-top: 20px;
+    margin: 20px;
     padding: 90px;
-    background-image: linear-gradient(to bottom right,#22a2dd,#0a8d82);
+    background-image: linear-gradient(to bottom right,#45f3e4,#00bfff);
+}
+
+@media screen and (max-width: 768px) and (max-width: 576px) {
+  .edEx{
+    display:grid;
+    grid-template: 1fr / 1fr;
+    margin: 5px;
+    padding: 90px;
+    background-image: linear-gradient(to bottom right,#45f3e4,#00bfff);
+}
 }
