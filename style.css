@@ -60,7 +60,7 @@ li {
   }
 
 .gradient-background {
-    background: linear-gradient(300deg, #00bfff, #4c58ff, #1bb93d);
+    background: linear-gradient(300deg, #45f3e4, #4ce4f1, #22a2dd);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 }
@@ -69,7 +69,7 @@ li {
       display: flex;
       flex-direction: column;
       align-items: center;
-      background-image: linear-gradient(to bottom right,#00bfff,#45f3e4);
+      /*background-image: linear-gradient(to bottom right,#00bfff,#45f3e4);*/
       padding: 150px;
       gap:30px;
 }
@@ -125,13 +125,19 @@ li {
   padding-left: 16%;
 }
 
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 768px) and (max-width: 576px) {
   .edEx{
     display:grid;
     grid-template: 1fr / 1fr;
     margin: 5px;
     padding: 90px;
-    background-image: linear-gradient(to bottom right,#45f3e4,#00bfff);
+    /*background-image: linear-gradient(to bottom right,#45f3e4,#00bfff);*/
 }
 
   .projects{
