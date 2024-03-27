@@ -88,16 +88,16 @@ li {
 .edEx{
     display:grid;
     grid-template: 1fr / 1fr 1fr;
-    margin: 20px;
+    margin: 5px;
     padding: 90px;
-    background-image: linear-gradient(to bottom right,#45f3e4,#00bfff);
+    background-image: linear-gradient(to bottom right, #22a2dd,#00bfff, #45f3e4);
 }
 
 .projects{
   display: grid;
   grid-template: 1fr / 1fr 1fr 1fr;
-  background-image:linear-gradient(to bottom right,#00bfff,#45f3e4);
-  margin: 20px;
+  background-image:linear-gradient(to bottom right, #22a2dd,#00bfff,#45f3e4);
+  margin: 5px;
   padding-bottom: 50px;
   padding-left: 70px;
 }
