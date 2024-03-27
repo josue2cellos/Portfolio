@@ -133,4 +133,35 @@ li {
     padding: 90px;
     background-image: linear-gradient(to bottom right,#45f3e4,#00bfff);
 }
+
+  .projects{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr ;
+    background-image:linear-gradient(to bottom right,#00bfff,#45f3e4);
+    margin: 5px;
+   padding: 60px;
+  }
+  
+  .proImg{
+    width: 250px;
+    border-radius: 20px;
+  }
+  
+  #projectsTitle{
+    grid-row-start: 1;
+    grid-column-end: 1;
+  }
+  
+  .projectsTitles{
+    margin-bottom: 10px;
+    padding-left: 20%;
+  }
+  
+  #mondrianImg{
+    width: 100px;
+    padding-left: 16%;
+  }
+  .pPro{
+    margin-bottom: 20px;
+  }
 }
